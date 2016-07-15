@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Click to ZOOM</title>
+
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/lib/bootstrap.min.css">
+
+	<!-- <script src="http://maps.googleapis.com/maps/api/js"></script> -->
+
+	<!-- <script>
+		let coords = {};
+
+		let promise = new Promise( (resolve, reject) => {
+			navigator.geolocation.getCurrentPosition( (position) => {
+				coords.latitude = position.coords.latitude;
+				coords.longitude = position.coords.longitude;
+				resolve();
+			} );
+		} );
+
+		promise.then( () => {
+			console.log("Fullfilled");
+			console.log(coords);
+		}, () => {console.log("Rejected");} );
+	</script> -->
+</head>
+<body>
+	<h2>Click to ZOOM - example</h2>
+	<h3 class="coords">
+		<span id="latitude"></span> &nbsp; <span id="longitude"></span>
+	</h3>
+
+	<div id="googleMap" style="width: 500px; height: 380px;"></div>
+</body>
+</html>

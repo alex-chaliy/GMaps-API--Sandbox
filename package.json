@@ -1,0 +1,22 @@
+{
+  "name": "gmaps-api-learn",
+  "version": "1.0.0",
+  "description": "Learning Google Maps API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alex-chaliy/gmaps-api-learn.git"
+  },
+  "author": "Alex Chaliy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alex-chaliy/gmaps-api-learn/issues"
+  },
+  "homepage": "https://github.com/alex-chaliy/gmaps-api-learn#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
